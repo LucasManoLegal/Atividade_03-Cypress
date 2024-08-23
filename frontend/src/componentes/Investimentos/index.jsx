@@ -8,7 +8,7 @@ export default function Investimentos() {
     <section className="container">
       <div className="detalhe__superior" />
       <div className={estilos.wrapper}>
-        <div className={estilos.investimentos}>
+        <div className={estilos.investimentos} data-test='titulo-investimentos'>
           <h2>Investimentos</h2>
           <p>Total: R$ 1.000.000,00</p>
         </div>
