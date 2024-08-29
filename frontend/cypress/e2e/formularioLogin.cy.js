@@ -1,5 +1,5 @@
 describe('Testando múltiplas páginas', () => {
-  it('Deve conseguir acessar a página de cartões', () => {
+  it('Deve permitir que o usuário faça login no site', {browser: 'edge'}, () => {
     cy.visit('http://localhost:3000');
     cy.getByData('botao-login').click();
     cy.getByData('email-input').type('neilton@alura.com');
